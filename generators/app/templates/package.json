@@ -22,7 +22,8 @@
     "karma-sourcemap-loader": "^0.3.6",
     "live-server": "^0.9.0",
     "phantomjs": "^1.9.19",
-    "tslint": "^3.2.1"
+    "tslint": "^3.2.1",
+    "tsd": "^0.6.5"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start",

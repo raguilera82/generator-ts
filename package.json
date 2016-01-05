@@ -1,10 +1,10 @@
 {
   "name": "generator-ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generator to start with TypeScript ",
   "homepage": "",
   "author": {
-    "name": "Rubén Aguilera",
+    "name": "Ruben Aguilera",
     "email": "raguilera@autentia.com",
     "url": ""
   },

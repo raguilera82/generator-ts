@@ -28,10 +28,6 @@ module.exports = yeoman.generators.Base.extend({
       this.templatePath('test'),
       this.destinationPath('test')
     );
-    this.directory(
-      this.templatePath('typings'),
-      this.destinationPath('typings')
-    );
     this.fs.copy(
       this.templatePath('.gitignore'),
       this.destinationPath('.gitignore')
@@ -71,6 +67,8 @@ module.exports = yeoman.generators.Base.extend({
   },
 
   install: function () {
-    this.installDependencies();
+    this.npmInstall();
+    this.runInstall('./node_modules/tsd/build/cli.js');
+    this.runInstall('./node_modules/jspm/jspm.js');
   }
 });
