@@ -1,5 +1,5 @@
 # generator-ts [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Generator to start with TypeScript 
+> Generator to start with TypeScript
 
 ## Installation
 
@@ -15,6 +15,21 @@ Then generate your new project:
 ```bash
 yo ts
 ```
+
+Commands:
+
+All commands are npm tasks in package.json:
+
+* npm run test -> execute tests with Karma + Coverage + PhantomJS
+* npm run live -> show app with livereload thank to live-server
+* npm run pro -> prepare app for production in dist folder
+* npm run clean -> delete build folder
+* npm run compile -> compile TypeScript to JavaScript
+* npm run compile-w -> compile TypeScript to JavaScript when files change
+* npm run lint -> show syntax error when files change
+* npm run plato -> execute complexity analysis with plato in report folder
+
+
 
 ## Getting To Know Yeoman
 
