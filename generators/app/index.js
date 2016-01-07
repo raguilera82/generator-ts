@@ -29,7 +29,7 @@ module.exports = yeoman.generators.Base.extend({
       this.destinationPath('test')
     );
     this.fs.copy(
-      this.templatePath('.gitignore'),
+      this.templatePath('_gitignore'),
       this.destinationPath('.gitignore')
     );
     this.fs.copy(
